@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class hyungyugod {
     @GetMapping("/hyungyugod")
     public String getHyungyuName(Model model) {
-        model.addAttribute("name", "안녕하세요 성현규입니다.");
+        model.addAttribute("name", "안녕하세요 성현규입니다. 인기 만점이네요");
         return "hyungyugod";
     }
 
