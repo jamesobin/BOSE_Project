@@ -18,5 +18,11 @@ public class hyungyugod {
         model.addAttribute("name", "안녕하세요 권오빈입니다.");
         return "hyungyugod";
     }
+
+    @GetMapping("/taeho")
+    public String getTaehoName(Model model) {
+        model.addAttribute("name", "안녕하세요 정태호입니다.");
+        return "hyungyugod";
+    }
     
 }
